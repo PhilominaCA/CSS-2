@@ -1,0 +1,225 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#divhome {
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    color: whitesmoke;
+    font-family: Noto Sans, sans-serif;
+    padding-bottom: 20vh;
+    text-align: center;
+}
+
+#divhome1 button {
+    padding: 1vw;
+    color: rgb(221, 218, 218);
+    border: none;
+    font-size: 1.2vw;
+    background-color: black;
+}
+
+#divhome2 span {
+    font-size: 5vw;
+}
+
+#divhome2 {
+    text-align: center;
+    font-size: 2vw;
+    float: right;
+    color: rgb(221, 218, 218);
+}
+.div_class{
+    display: flex;
+}
+#divdesc1 {
+    padding-top: 5vh;
+    font-family: Noto Sans, sans-serif;
+    width: 50%;
+    padding-left: 5vw;
+}
+
+#divdesc1 b {
+    font-size: 2vw;
+}
+
+#divdesc1 p {
+    color: #464545;
+    padding-top: 2%;
+    padding-bottom: 5vh;
+    padding-right: 6vw;
+    font-size: 1.3vw;
+    line-height: 1.4;
+}
+
+.div_class img {
+    width: 40vw;
+    height: 80vh;
+    padding-right: 5%;
+    padding-top: 8%;
+}
+
+#divdesc3 {
+    height: 30%;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    gap:1vw;
+    justify-content: center;
+}
+
+#divdesc3 button {
+    height: 22%;
+    width: 15%;
+    text-align: center;
+    font-size: 1.4vw;
+    padding: 2vh 0.5vw;
+    border: none;
+    border-radius: 5px;
+}
+
+#wikibut {
+    background-color: #D8D8D8;
+    color: #606060;
+}
+
+.fa.fa-wikipedia-w {
+    color: gray;
+}
+
+#vediosbut {
+    background-color: #D00000;
+    color: whitesmoke;
+}
+
+.fa.fa-youtube-play {
+    color: whitesmoke;
+    opacity: 0.8;
+}
+
+#booksbut {
+    background-color: #FF9933;
+    color: whitesmoke;
+}
+
+.fa.fa-amazon {
+    color: whitesmoke;
+    opacity: 0.8;
+}
+
+#divquote {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: black;
+    color: whitesmoke;
+    font-family: Noto Sans, sans-serif;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+#divawards {
+    padding-top: 8vh;
+}
+
+#divawardshead span {
+    display: flex;
+    font-family: Noto Sans, sans-serif;
+    font-size: 2.5vw;
+    padding-bottom: 4vh;
+}
+
+#divawardshead span::before,
+#divawardshead span::after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #D3D3D3;
+    margin: auto;
+}
+
+#awardiv {
+    display: flex;
+    padding: 1.5vw;
+}
+
+#awardiv div {
+    padding: 2vw;
+    height: 20%;
+    width: 30%;
+    border: 1px solid #D3D3D3;
+    font-family: Noto Sans, sans-serif;
+    border-radius: 5px;
+}
+
+#awardiv span {
+    color: gray;
+    line-height: 1.6;
+}
+
+#awardiv p {
+    font-size: 1.1vw;
+}
+
+#poemdiv {
+    display: flex;
+    padding-bottom: 15vh;
+}
+
+#poemdiv div {
+    padding-left: 4.5vw;
+    padding-top: 6%;
+    font-family: Tahoma, sans-serif;
+    font-size: 1.1vw;
+}
+
+#divpoetry span,
+#divpoem span {
+    display: flex;
+    flex-direction: row;
+    font-size: 2vw;
+    padding-bottom: 5.5vh;
+}
+
+#divpoetry span::before,
+#divpoem span::before,
+#divpoetry span::after,
+#divpoem span::after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #D3D3D3;
+    margin: auto;
+}
+
+#divfooter {
+    background-color: black;
+    font-family: Tahoma, sans-serif;
+    display: flex;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#divfooter div {
+    border-right: #F0F0F0 1px;
+    color: #E8E8E8;
+    padding: 1vw;
+    width: 30vw;
+    font-size: 1.1vw;
+}
+
+#divfooter #divfooter2 {
+    width: 20vw;
+}
+
+#divfooter1 span,
+#divfooter2 span {
+    color: gray;
+}
+
+#divfooter3 span {
+    color: #0047AB;
+}
